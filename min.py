@@ -18,5 +18,5 @@ for op, value in opts:
         css_name = value[ : len( value ) - 4 ]
         css_min = rcssmin.cssmin( css_file.read() )
         css_min_file = open( cs_name + ".min.css", 'w' )
-        css_min_file.write( js_min )
+        css_min_file.write( css_min )
         print "Finished saving Css file"
