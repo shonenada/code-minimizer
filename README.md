@@ -8,8 +8,8 @@
 
  ## Usage
 
-    * Single file compression
-        `Python min-py -j script,s -c style.css`
+  * Single file compression
+    `Python min-py -j script,s -c style.css`
 
-    * Directory compression
-        `Python minimize.py ./static/ `
+  * Directory compression
+    `Python minimize.py ./static/ `
